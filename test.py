@@ -1,10 +1,12 @@
 import torch
 import numpy as np
 from models import CombinedModel  # Assuming the same model architecture as used for training
-from data.loaders.eeg_dataset_win_lazy import create_test_loader  # If you need to load data
 from sklearn.metrics import accuracy_score, roc_auc_score, confusion_matrix
 from utils import get_patients
 import random
+
+from torch.utils.data import DataLoader, random_split
+from data.loaders import EEGDataset
 
 # Define hyperparameters (same as the training code)
 batch_size = 20
@@ -47,9 +49,18 @@ def load_model(model_path, device):
 model_path = './experiments/models/trans_resnet_16b_fdata/eeg_model.pth'
 model = load_model(model_path, device)
 
-root_dir = "/media/brainwave/2Tb HDD/physionet.org/files/i-care/2.1/training"
-patients_data, _ = get_patients(root_path=root_dir, prototype=True, per_class=10)
-test_loader = create_test_loader(patients_data, root_dir, batch_size=32, records_per_patient=1, predict='outcome')
+train_dataset = EEGDataset(data_dir="./preprocessed_data", labels_json_path="./metadata.json")
+
+train_ratio = 0.8
+val_ratio = 1 - train_ratio
+
+train_size = int(train_ratio * len(train_dataset))
+val_size = len(train_dataset) - train_size
+
+train_subset, val_subset = random_split(train_dataset, [train_size, val_size])
+
+train_loader = DataLoader(train_subset, batch_size=batch_size, num_workers=2, shuffle=True)
+val_loader = DataLoader(val_subset, batch_size=batch_size, num_workers=4, shuffle=False)
 
 # Perform inference on the test set
 model.eval()

@@ -11,20 +11,18 @@ class EEGDataset(Dataset):
     Loads EEG data for a given patient and processes it into windows with labels.
     """
 
-    def __init__(self, patients_data, root_dir, records_per_patient=1, fs=100, window_size=10, predict='outcome'):
+    def __init__(self, label_csv_path, records_per_patient=1, fs=100, window_size=10, predict='outcome'):
         """
         Initialize the dataset.
         
         Args:
-            patients_data (dict): Dictionary with patient IDs as keys and their EEG records as values.
-            root_dir (str): Root directory containing the patient data.
+            label_csv_path (str): Path to the CSV file containing the labels.
             records_per_patient (int): Maximum number of records to load per patient.
             fs (int): Target sampling frequency for resampling.
             window_size (int): Window size in seconds for EEG segmentation.
             predict (str): Specifies which label to predict ('outcome' or 'cpc').
         """
-        self.patients_data = patients_data
-        self.root_dir = root_dir
+        self.label_csv_path = label_csv_path
         self.records_per_patient = records_per_patient
         self.fs = fs
         self.window_size = window_size
@@ -32,25 +30,17 @@ class EEGDataset(Dataset):
         self.data = self._load_data()
 
     def _load_data(self):
-        """
-        Load and preprocess data for all patients.
-        Returns a list of (window, label) tuples.
-        """
+        # there is no path joining anymore, just read the csv file
         data = []
-        for patient_id, records in self.patients_data.items():
-            # Limit records to the specified maximum per patient
-            if(self.records_per_patient != -1):
-                records = records[:self.records_per_patient]
-            for record in records:
-                record_path = os.path.join(self.root_dir, patient_id, record)
+        with open(self.label_csv_path, 'r') as file:
+            for line in file:
+                record_path, _, label = line.strip().split(',')
                 try:
-                    eeg_signal, sampling_rate, _, label = self.read_eeg_data(record_path, patient_id)
-                    # Discard recordings shorter than the minimum duration
+                    eeg_signal, sampling_rate, _, label = self.read_eeg_data(record_path)
                     if not self.is_valid_recording(eeg_signal, sampling_rate, min_duration=self.window_size):
                         print(f"Skipping record {record_path}: Duration less than {self.window_size} seconds.")
                         continue
                     eeg_signal = self.preprocess_eeg_signal(eeg_signal, sampling_rate)
-                    print(f'patient id: ', {patient_id})
                     windows, labels = self.create_windows(eeg_signal, label)
                     data.extend(zip(windows, labels))
                 except Exception as e:
@@ -65,18 +55,16 @@ class EEGDataset(Dataset):
         window, label = self.data[idx]
         return torch.FloatTensor(window), torch.LongTensor([label])[0]
 
-    def read_eeg_data(self, record_name, patient_id):
+    def read_eeg_data(self, record_path):
         """Reads EEG data and associated metadata."""
-        record = wfdb.rdrecord(record_name)
+        record = wfdb.rdrecord(record_path + '.mat')
         sampling_rate = record.fs
         channels = record.p_signal.shape[1]
-
-        metadata_path = os.path.join(self.root_dir, patient_id, f"{patient_id}.txt")
+        metadata_path = record_path + '.txt'
         label_mapping = {"Good": 0, "Poor": 1}
 
         with open(metadata_path, "r") as file:
             metadata = file.readlines()
-            # Choose the label based on the 'predict' parameter
             if self.predict == "outcome":
                 label = [line.split(":")[-1].strip() for line in metadata if "Outcome" in line][0]
                 label = label_mapping.get(label, -1)  # Default to -1 if outcome is unrecognized

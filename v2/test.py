@@ -49,8 +49,8 @@ def load_model(model_path, device):
     return model
 
 
-model_path = './experiments/hybrid_model_nblocks4_kernel17_basef64_transformerhidden32_20secwindow_weightedloss_13/best_model.pth'
-# model_path = './experiments/hybrid_model_newdata_1/best_model.pth'
+# model_path = './experiments/hybrid_model_nblocks4_kernel17_basef64_transformerhidden32_20secwindow_weightedloss_13/best_model.pth'
+model_path = './experiments/hybrid_model_newdata_3/best_model.pth'
 model = load_model(model_path, device)
 
 train_dataset = EEGDataset(data_dir="./preprocessed_data", labels_json_path="./test_metadata.json")
@@ -103,7 +103,7 @@ test_preds = np.concatenate(test_preds)
 test_labels = np.concatenate(test_labels)
 
 # Assuming a binary classification task (0 or 1)
-test_pred = (test_preds > 0.5)  # Convert to binary predictions
+test_pred = (test_preds > 0.6)  # Convert to binary predictions
 
 # Calculate accuracy, AUC, TPR, FPR
 acc = accuracy_score(test_labels, test_pred)

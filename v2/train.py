@@ -57,8 +57,8 @@ lr = 1e-4
 epochs = 10
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f'device: {device}')
-experiment_name = 'hybrid_model_newdata_1'
-old_model_path = './experiments/hybrid_model_newdata_1/best_model.pth'
+experiment_name = 'hybrid_model_newdata_4'
+old_model_path = './experiments/hybrid_model_newdata_3/best_model.pth'
 
 os.makedirs(f'./experiments/{experiment_name}', exist_ok=True)
 model_path = f'./experiments/{experiment_name}/best_model.pth'
@@ -94,7 +94,7 @@ transformer_config = {
 
 # model = CombinedModel(resnet_config, transformer_config).to(device)
 model = load_model(old_model_path,resnet_config, transformer_config, device)
-criterion = nn.BCEWithLogitsLoss(pos_weight=torch.tensor([8])).to(device)
+criterion = nn.BCEWithLogitsLoss(pos_weight=torch.tensor([1.5])).to(device)
 optimizer = optim.Adam(model.parameters(), lr=lr)
 # scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3, verbose=True)
 best_val_loss = float('inf')
@@ -122,6 +122,9 @@ for epoch in range(epochs):
 
         probs = torch.sigmoid(outputs).detach().cpu().numpy()
         targets = labels.detach().cpu().numpy()
+
+        print("True::\n",targets)
+        print("Predictted::\n", probs)
 
         train_probs.extend(probs)
         train_targets.extend(targets)

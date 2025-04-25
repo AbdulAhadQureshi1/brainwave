@@ -34,7 +34,8 @@ def load_model(model_path, device):
     return model
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model_path = './experiments/hybrid_model_nblocks4_kernel17_basef64_transformerhidden32_20secwindow_weightedloss_13/best_model.pth'
+# model_path = './experiments/hybrid_model_nblocks4_kernel17_basef64_transformerhidden32_20secwindow_weightedloss_13/best_model.pth'
+model_path = "./experiments/hybrid_model_newdata_3/best_model.pth"
 model = load_model(model_path, device)
 
 # Load test dataset
@@ -59,15 +60,15 @@ with torch.no_grad():
         outputs = model(eeg_segments)  # (N, 1)
         probs = torch.sigmoid(outputs).cpu().numpy().flatten()
 
-        threshold = 0.65
+        threshold = 0.5
 
         # Aggregate
         avg_prob = np.mean(probs)
         majority_vote = (probs > threshold).astype(int).mean() > threshold
 
         avg_probs_list.append(avg_prob)
-        # pred_labels.append(int(avg_prob > threshold))  # Binary prediction
-        pred_labels.append(int(majority_vote))
+        pred_labels.append(int(avg_prob > threshold))  # Binary prediction
+        # pred_labels.append(int(majority_vote))
         true_labels.append(label[0])
         print(f"True: {label[0]}, Pred: {avg_prob > threshold}")
 

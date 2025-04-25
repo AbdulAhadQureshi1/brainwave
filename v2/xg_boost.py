@@ -1,24 +1,24 @@
 import json
 import numpy as np
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 import joblib
 import pandas as pd
+from xgboost import XGBClassifier
 from sklearn.metrics import confusion_matrix
 
 # Paths
 FEATURES_JSON = "eeg_feature_dataset.json"
 METADATA_JSON = "patient-metadata.json"
-MODEL_OUTPUT = "random_forest_cpc_model.pkl"
+MODEL_OUTPUT = "xgboost_cpc.pkl"
 
 # Custom weights for CPC labels
 custom_weights = {
-    1: 0.8,
-    2: 1.5,
-    3: 2.0,
-    4: 1.8,
-    5: 0.5
+    0: 0.8,
+    1: 1.5,
+    2: 2.0,
+    3: 1.8,
+    4: 0.5
 }
 
 def load_metadata(metadata_path):
@@ -86,7 +86,9 @@ def main():
 
     # Convert to DataFrame
     X_df = pd.DataFrame(feature_rows, columns=all_feature_names)
-    y = np.array(labels)
+    # Ensure all columns in the feature DataFrame are numeric
+    X_df = X_df.apply(pd.to_numeric, errors='coerce')
+    y = np.array(labels) - 1 # Shift because XG Boost needs 0-4
 
     print("\n🔍 Sample of features (X):")
     print(X_df)
@@ -96,12 +98,28 @@ def main():
         X_df, y, test_size=0.4, random_state=42, stratify=y
     )
 
+    # Generate sample weights from training labels
+    sample_weights = [custom_weights[int(label)] for label in y_train]
+
     # Train model
-    clf = RandomForestClassifier(n_estimators=200, max_depth=10, random_state=42, class_weight=custom_weights)
-    clf.fit(X_train, y_train)
+    clf = XGBClassifier(
+        n_estimators=200,
+        max_depth=10,
+        learning_rate=0.1,
+        objective="multi:softmax",  # Or "multi:softprob" if you want probabilities
+        num_class=5,                # Replace with your number of CPC classes
+        random_state=42,
+        verbosity=1,
+        eval_metric="mlogloss"
+        # You can also tune `scale_pos_weight` or use sample weighting for imbalance
+    )
+    clf.fit(X_train, y_train, sample_weight=sample_weights)
 
     # Evaluate
     y_pred = clf.predict(X_test)
+    y_pred = y_pred + 1
+    y_test = y_test + 1
+    
     print("\n✅ Model Performance:")
     print(f"Accuracy: {accuracy_score(y_test, y_pred) * 100:.2f}%")
     print("\nClassification Report:")

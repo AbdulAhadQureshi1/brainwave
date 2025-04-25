@@ -8,8 +8,8 @@ import concurrent.futures
 from antropy import petrosian_fd, perm_entropy
 
 # Paths
-METADATA_PATH = "metadata.json"
-DATA_DIR = "preprocessed_data"
+METADATA_PATH = "new-metadata.json"
+DATA_DIR = "dataset/dataset"
 OUTPUT_JSON = "eeg_feature_dataset.json"
 
 # def fast_extract_features(eeg_windows):

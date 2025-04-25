@@ -1,5 +1,1435 @@
 [
     {
+        "Patient": 328,
+        "Hospital": "B",
+        "Age": 56,
+        "Sex": "Male",
+        "ROSC": 40,
+        "OHCA": false,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 332,
+        "Hospital": "D",
+        "Age": 68,
+        "Sex": "Female",
+        "ROSC": 60,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 335,
+        "Hospital": "A",
+        "Age": 64,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 344,
+        "Hospital": "A",
+        "Age": 50,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 346,
+        "Hospital": "E",
+        "Age": 55,
+        "Sex": "Male",
+        "ROSC": 15,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 350,
+        "Hospital": "B",
+        "Age": 56,
+        "Sex": "Male",
+        "ROSC": 7,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 354,
+        "Hospital": "E",
+        "Age": 40,
+        "Sex": "Male",
+        "ROSC": 5,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 356,
+        "Hospital": "A",
+        "Age": 82,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 357,
+        "Hospital": "A",
+        "Age": 52,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 359,
+        "Hospital": "A",
+        "Age": 80,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": "nan",
+        "TTM": 33
+    },
+    {
+        "Patient": 364,
+        "Hospital": "B",
+        "Age": 53,
+        "Sex": "Male",
+        "ROSC": 70,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 369,
+        "Hospital": "A",
+        "Age": 82,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 375,
+        "Hospital": "E",
+        "Age": 54,
+        "Sex": "Male",
+        "ROSC": 17,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 390,
+        "Hospital": "A",
+        "Age": 56,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 396,
+        "Hospital": "A",
+        "Age": 68,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 405,
+        "Hospital": "B",
+        "Age": 26,
+        "Sex": "nan",
+        "ROSC": 2,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 415,
+        "Hospital": "A",
+        "Age": 73,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 423,
+        "Hospital": "E",
+        "Age": 71,
+        "Sex": "Female",
+        "ROSC": 25,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 427,
+        "Hospital": "A",
+        "Age": 67,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 428,
+        "Hospital": "A",
+        "Age": 32,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 429,
+        "Hospital": "D",
+        "Age": 67,
+        "Sex": "Female",
+        "ROSC": 16,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 430,
+        "Hospital": "D",
+        "Age": 66,
+        "Sex": "Male",
+        "ROSC": 13,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 431,
+        "Hospital": "F",
+        "Age": 60,
+        "Sex": "Female",
+        "ROSC": 40,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 432,
+        "Hospital": "F",
+        "Age": 90,
+        "Sex": "Female",
+        "ROSC": 17,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 433,
+        "Hospital": "A",
+        "Age": 63,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 443,
+        "Hospital": "D",
+        "Age": 31,
+        "Sex": "Male",
+        "ROSC": 20,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 445,
+        "Hospital": "E",
+        "Age": 66,
+        "Sex": "Male",
+        "ROSC": 10,
+        "OHCA": "nan",
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 448,
+        "Hospital": "D",
+        "Age": 72,
+        "Sex": "Male",
+        "ROSC": 18,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 461,
+        "Hospital": "B",
+        "Age": 19,
+        "Sex": "Female",
+        "ROSC": 3,
+        "OHCA": false,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 462,
+        "Hospital": "A",
+        "Age": 76,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 466,
+        "Hospital": "E",
+        "Age": 71,
+        "Sex": "Female",
+        "ROSC": 10,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 485,
+        "Hospital": "E",
+        "Age": 55,
+        "Sex": "Male",
+        "ROSC": 10,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 486,
+        "Hospital": "A",
+        "Age": 48,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 501,
+        "Hospital": "A",
+        "Age": 54,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 36
+    },
+    {
+        "Patient": 510,
+        "Hospital": "E",
+        "Age": 60,
+        "Sex": "Male",
+        "ROSC": 15,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 36
+    },
+    {
+        "Patient": 512,
+        "Hospital": "E",
+        "Age": 64,
+        "Sex": "Male",
+        "ROSC": 60,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 514,
+        "Hospital": "D",
+        "Age": 47,
+        "Sex": "Male",
+        "ROSC": 50,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 521,
+        "Hospital": "B",
+        "Age": 59,
+        "Sex": "Male",
+        "ROSC": 17,
+        "OHCA": false,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 522,
+        "Hospital": "A",
+        "Age": 68,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 532,
+        "Hospital": "A",
+        "Age": 49,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 533,
+        "Hospital": "E",
+        "Age": 49,
+        "Sex": "Female",
+        "ROSC": 20,
+        "OHCA": "nan",
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 541,
+        "Hospital": "A",
+        "Age": 71,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 549,
+        "Hospital": "A",
+        "Age": 48,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": "nan",
+        "Shockable Rhythm": "nan",
+        "TTM": 36
+    },
+    {
+        "Patient": 560,
+        "Hospital": "A",
+        "Age": 70,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 574,
+        "Hospital": "A",
+        "Age": 74,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 577,
+        "Hospital": "F",
+        "Age": 59,
+        "Sex": "Female",
+        "ROSC": 27,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 582,
+        "Hospital": "A",
+        "Age": 73,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 593,
+        "Hospital": "B",
+        "Age": 69,
+        "Sex": "Female",
+        "ROSC": 5,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 601,
+        "Hospital": "D",
+        "Age": 47,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": "nan",
+        "Shockable Rhythm": true,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 605,
+        "Hospital": "A",
+        "Age": 57,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 607,
+        "Hospital": "D",
+        "Age": 45,
+        "Sex": "Male",
+        "ROSC": 60,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 611,
+        "Hospital": "B",
+        "Age": 40,
+        "Sex": "Male",
+        "ROSC": 14,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 613,
+        "Hospital": "A",
+        "Age": 69,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": "nan",
+        "Shockable Rhythm": "nan",
+        "TTM": 36
+    },
+    {
+        "Patient": 615,
+        "Hospital": "B",
+        "Age": 70,
+        "Sex": "Male",
+        "ROSC": 10,
+        "OHCA": false,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 617,
+        "Hospital": "B",
+        "Age": 55,
+        "Sex": "Male",
+        "ROSC": 22,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 626,
+        "Hospital": "E",
+        "Age": 80,
+        "Sex": "Male",
+        "ROSC": 60,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 644,
+        "Hospital": "A",
+        "Age": 44,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 645,
+        "Hospital": "F",
+        "Age": 36,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 649,
+        "Hospital": "A",
+        "Age": 60,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 660,
+        "Hospital": "F",
+        "Age": 60,
+        "Sex": "Male",
+        "ROSC": 21,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 665,
+        "Hospital": "A",
+        "Age": 44,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 678,
+        "Hospital": "F",
+        "Age": 74,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 682,
+        "Hospital": "B",
+        "Age": 64,
+        "Sex": "Male",
+        "ROSC": 37,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 685,
+        "Hospital": "E",
+        "Age": 50,
+        "Sex": "Male",
+        "ROSC": 10,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 686,
+        "Hospital": "A",
+        "Age": 51,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 690,
+        "Hospital": "A",
+        "Age": 88,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": "nan",
+        "Shockable Rhythm": true,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 697,
+        "Hospital": "D",
+        "Age": 84,
+        "Sex": "Male",
+        "ROSC": 30,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 699,
+        "Hospital": "B",
+        "Age": 75,
+        "Sex": "Male",
+        "ROSC": 5,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 700,
+        "Hospital": "D",
+        "Age": 75,
+        "Sex": "Male",
+        "ROSC": 30,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 707,
+        "Hospital": "A",
+        "Age": 62,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 708,
+        "Hospital": "B",
+        "Age": 83,
+        "Sex": "Male",
+        "ROSC": 7,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 718,
+        "Hospital": "B",
+        "Age": 80,
+        "Sex": "Male",
+        "ROSC": 5,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 721,
+        "Hospital": "A",
+        "Age": 66,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 726,
+        "Hospital": "A",
+        "Age": 71,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 727,
+        "Hospital": "D",
+        "Age": 44,
+        "Sex": "Female",
+        "ROSC": 24,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 734,
+        "Hospital": "B",
+        "Age": 52,
+        "Sex": "Male",
+        "ROSC": 45,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 736,
+        "Hospital": "B",
+        "Age": 52,
+        "Sex": "Male",
+        "ROSC": 18,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 741,
+        "Hospital": "A",
+        "Age": 60,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 755,
+        "Hospital": "D",
+        "Age": 78,
+        "Sex": "Female",
+        "ROSC": 70,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 756,
+        "Hospital": "E",
+        "Age": 55,
+        "Sex": "Female",
+        "ROSC": 27,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 757,
+        "Hospital": "A",
+        "Age": 56,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 765,
+        "Hospital": "A",
+        "Age": 81,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 767,
+        "Hospital": "B",
+        "Age": 54,
+        "Sex": "Female",
+        "ROSC": 10,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 771,
+        "Hospital": "B",
+        "Age": 84,
+        "Sex": "Male",
+        "ROSC": 33,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 777,
+        "Hospital": "A",
+        "Age": 43,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 788,
+        "Hospital": "D",
+        "Age": 67,
+        "Sex": "nan",
+        "ROSC": "nan",
+        "OHCA": "nan",
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 792,
+        "Hospital": "D",
+        "Age": 65,
+        "Sex": "Male",
+        "ROSC": 95,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 796,
+        "Hospital": "F",
+        "Age": 46,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 797,
+        "Hospital": "A",
+        "Age": 74,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 812,
+        "Hospital": "B",
+        "Age": 83,
+        "Sex": "Male",
+        "ROSC": 35,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 814,
+        "Hospital": "D",
+        "Age": 36,
+        "Sex": "Male",
+        "ROSC": 30,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 824,
+        "Hospital": "A",
+        "Age": 72,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 828,
+        "Hospital": "A",
+        "Age": 78,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 829,
+        "Hospital": "B",
+        "Age": 77,
+        "Sex": "Female",
+        "ROSC": 15,
+        "OHCA": false,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 830,
+        "Hospital": "D",
+        "Age": 66,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 831,
+        "Hospital": "A",
+        "Age": 75,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": "nan",
+        "Shockable Rhythm": "nan",
+        "TTM": 36
+    },
+    {
+        "Patient": 832,
+        "Hospital": "F",
+        "Age": 60,
+        "Sex": "Female",
+        "ROSC": 15,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 833,
+        "Hospital": "A",
+        "Age": 76,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 834,
+        "Hospital": "A",
+        "Age": 80,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": "nan",
+        "TTM": 33
+    },
+    {
+        "Patient": 835,
+        "Hospital": "A",
+        "Age": 52,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 837,
+        "Hospital": "A",
+        "Age": 59,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 838,
+        "Hospital": "A",
+        "Age": 77,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 839,
+        "Hospital": "A",
+        "Age": 59,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 840,
+        "Hospital": "A",
+        "Age": 58,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 841,
+        "Hospital": "A",
+        "Age": 67,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 843,
+        "Hospital": "A",
+        "Age": 40,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": false,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 844,
+        "Hospital": "B",
+        "Age": 65,
+        "Sex": "Male",
+        "ROSC": 9,
+        "OHCA": false,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 845,
+        "Hospital": "F",
+        "Age": 62,
+        "Sex": "Female",
+        "ROSC": 15,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 846,
+        "Hospital": "B",
+        "Age": 62,
+        "Sex": "Male",
+        "ROSC": 10,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 847,
+        "Hospital": "F",
+        "Age": 37,
+        "Sex": "Female",
+        "ROSC": 16,
+        "OHCA": false,
+        "Shockable Rhythm": true,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 848,
+        "Hospital": "A",
+        "Age": 69,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 851,
+        "Hospital": "D",
+        "Age": 76,
+        "Sex": "Female",
+        "ROSC": 27,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 860,
+        "Hospital": "A",
+        "Age": 72,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 861,
+        "Hospital": "B",
+        "Age": 81,
+        "Sex": "Female",
+        "ROSC": 10,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 864,
+        "Hospital": "B",
+        "Age": 43,
+        "Sex": "Male",
+        "ROSC": 16,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 867,
+        "Hospital": "F",
+        "Age": 52,
+        "Sex": "Male",
+        "ROSC": 4,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 873,
+        "Hospital": "A",
+        "Age": 69,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 36
+    },
+    {
+        "Patient": 880,
+        "Hospital": "D",
+        "Age": 53,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 883,
+        "Hospital": "A",
+        "Age": 71,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 892,
+        "Hospital": "A",
+        "Age": 81,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 897,
+        "Hospital": "A",
+        "Age": 59,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 915,
+        "Hospital": "A",
+        "Age": 90,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 917,
+        "Hospital": "A",
+        "Age": 75,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 920,
+        "Hospital": "A",
+        "Age": 58,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 921,
+        "Hospital": "A",
+        "Age": 72,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 922,
+        "Hospital": "F",
+        "Age": 83,
+        "Sex": "Male",
+        "ROSC": 30,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 932,
+        "Hospital": "A",
+        "Age": 64,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 935,
+        "Hospital": "D",
+        "Age": 36,
+        "Sex": "Male",
+        "ROSC": 4,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 937,
+        "Hospital": "B",
+        "Age": 70,
+        "Sex": "Male",
+        "ROSC": 4,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 950,
+        "Hospital": "B",
+        "Age": 30,
+        "Sex": "Male",
+        "ROSC": 10,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 952,
+        "Hospital": "F",
+        "Age": 69,
+        "Sex": "Male",
+        "ROSC": 25,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 953,
+        "Hospital": "A",
+        "Age": 74,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 964,
+        "Hospital": "E",
+        "Age": 71,
+        "Sex": "Male",
+        "ROSC": 20,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 968,
+        "Hospital": "A",
+        "Age": 70,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": "nan",
+        "Shockable Rhythm": "nan",
+        "TTM": 36
+    },
+    {
+        "Patient": 971,
+        "Hospital": "E",
+        "Age": 62,
+        "Sex": "Male",
+        "ROSC": 15,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 973,
+        "Hospital": "F",
+        "Age": 65,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 979,
+        "Hospital": "A",
+        "Age": 62,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 984,
+        "Hospital": "A",
+        "Age": 67,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 994,
+        "Hospital": "A",
+        "Age": 78,
+        "Sex": "Female",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 999,
+        "Hospital": "B",
+        "Age": 46,
+        "Sex": "Male",
+        "ROSC": 10,
+        "OHCA": false,
+        "Shockable Rhythm": false,
+        "TTM": 33
+    },
+    {
+        "Patient": 1006,
+        "Hospital": "A",
+        "Age": 76,
+        "Sex": "Male",
+        "ROSC": "nan",
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": 33
+    },
+    {
+        "Patient": 1008,
+        "Hospital": "F",
+        "Age": 80,
+        "Sex": "Male",
+        "ROSC": 26,
+        "OHCA": true,
+        "Shockable Rhythm": false,
+        "TTM": "nan"
+    },
+    {
+        "Patient": 1014,
+        "Hospital": "F",
+        "Age": 37,
+        "Sex": "Female",
+        "ROSC": 42,
+        "OHCA": true,
+        "Shockable Rhythm": true,
+        "TTM": "nan"
+    },
+    {
         "Patient": 740,
         "Hospital": "E",
         "Age": 64,
@@ -100,16 +1530,6 @@
         "TTM": 33
     },
     {
-        "Patient": 369,
-        "Hospital": "A",
-        "Age": 82,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 455,
         "Hospital": "A",
         "Age": 55,
@@ -180,16 +1600,6 @@
         "TTM": 33
     },
     {
-        "Patient": 346,
-        "Hospital": "E",
-        "Age": 55,
-        "Sex": "Male",
-        "ROSC": 15,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 642,
         "Hospital": "E",
         "Age": 84,
@@ -198,16 +1608,6 @@
         "OHCA": true,
         "Shockable Rhythm": true,
         "TTM": 33
-    },
-    {
-        "Patient": 501,
-        "Hospital": "A",
-        "Age": 54,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 36
     },
     {
         "Patient": 1011,
@@ -247,16 +1647,6 @@
         "ROSC": 8,
         "OHCA": false,
         "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 423,
-        "Hospital": "E",
-        "Age": 71,
-        "Sex": "Female",
-        "ROSC": 25,
-        "OHCA": false,
-        "Shockable Rhythm": false,
         "TTM": 33
     },
     {
@@ -307,16 +1697,6 @@
         "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 512,
-        "Hospital": "E",
-        "Age": 64,
-        "Sex": "Male",
-        "ROSC": 60,
-        "OHCA": true,
-        "Shockable Rhythm": false,
         "TTM": 33
     },
     {
@@ -407,16 +1787,6 @@
         "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 685,
-        "Hospital": "E",
-        "Age": 50,
-        "Sex": "Male",
-        "ROSC": 10,
-        "OHCA": true,
-        "Shockable Rhythm": true,
         "TTM": 33
     },
     {
@@ -538,16 +1908,6 @@
         "OHCA": true,
         "Shockable Rhythm": true,
         "TTM": 33
-    },
-    {
-        "Patient": 873,
-        "Hospital": "A",
-        "Age": 69,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 36
     },
     {
         "Patient": 630,
@@ -720,16 +2080,6 @@
         "TTM": 36
     },
     {
-        "Patient": 510,
-        "Hospital": "E",
-        "Age": 60,
-        "Sex": "Male",
-        "ROSC": 15,
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 36
-    },
-    {
         "Patient": 865,
         "Hospital": "B",
         "Age": 87,
@@ -748,16 +2098,6 @@
         "OHCA": true,
         "Shockable Rhythm": false,
         "TTM": "nan"
-    },
-    {
-        "Patient": 607,
-        "Hospital": "D",
-        "Age": 45,
-        "Sex": "Male",
-        "ROSC": 60,
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
     },
     {
         "Patient": 1003,
@@ -790,32 +2130,12 @@
         "TTM": 36
     },
     {
-        "Patient": 897,
-        "Hospital": "A",
-        "Age": 59,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 353,
         "Hospital": "F",
         "Age": 62,
         "Sex": "Female",
         "ROSC": "nan",
         "OHCA": false,
-        "Shockable Rhythm": true,
-        "TTM": "nan"
-    },
-    {
-        "Patient": 1014,
-        "Hospital": "F",
-        "Age": 37,
-        "Sex": "Female",
-        "ROSC": 42,
-        "OHCA": true,
         "Shockable Rhythm": true,
         "TTM": "nan"
     },
@@ -867,26 +2187,6 @@
         "ROSC": 20,
         "OHCA": true,
         "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 1008,
-        "Hospital": "F",
-        "Age": 80,
-        "Sex": "Male",
-        "ROSC": 26,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": "nan"
-    },
-    {
-        "Patient": 533,
-        "Hospital": "E",
-        "Age": 49,
-        "Sex": "Female",
-        "ROSC": 20,
-        "OHCA": "nan",
-        "Shockable Rhythm": true,
         "TTM": 33
     },
     {
@@ -968,16 +2268,6 @@
         "OHCA": false,
         "Shockable Rhythm": false,
         "TTM": "nan"
-    },
-    {
-        "Patient": 755,
-        "Hospital": "D",
-        "Age": 78,
-        "Sex": "Female",
-        "ROSC": 70,
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
     },
     {
         "Patient": 668,
@@ -1200,26 +2490,6 @@
         "TTM": 33
     },
     {
-        "Patient": 649,
-        "Hospital": "A",
-        "Age": 60,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 880,
-        "Hospital": "D",
-        "Age": 53,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": "nan"
-    },
-    {
         "Patient": 435,
         "Hospital": "D",
         "Age": 76,
@@ -1310,16 +2580,6 @@
         "TTM": 33
     },
     {
-        "Patient": 577,
-        "Hospital": "F",
-        "Age": 59,
-        "Sex": "Female",
-        "ROSC": 27,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": "nan"
-    },
-    {
         "Patient": 404,
         "Hospital": "B",
         "Age": 47,
@@ -1383,16 +2643,6 @@
         "Patient": 614,
         "Hospital": "A",
         "Age": 54,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 741,
-        "Hospital": "A",
-        "Age": 60,
         "Sex": "Male",
         "ROSC": "nan",
         "OHCA": true,
@@ -1490,16 +2740,6 @@
         "TTM": 33
     },
     {
-        "Patient": 461,
-        "Hospital": "B",
-        "Age": 19,
-        "Sex": "Female",
-        "ROSC": 3,
-        "OHCA": false,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 389,
         "Hospital": "D",
         "Age": 56,
@@ -1525,16 +2765,6 @@
         "Age": 67,
         "Sex": "Male",
         "ROSC": 25,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 979,
-        "Hospital": "A",
-        "Age": 62,
-        "Sex": "Male",
-        "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": false,
         "TTM": 33
@@ -1580,26 +2810,6 @@
         "TTM": "nan"
     },
     {
-        "Patient": 593,
-        "Hospital": "B",
-        "Age": 69,
-        "Sex": "Female",
-        "ROSC": 5,
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 611,
-        "Hospital": "B",
-        "Age": 40,
-        "Sex": "Male",
-        "ROSC": 14,
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 781,
         "Hospital": "D",
         "Age": 72,
@@ -1617,16 +2827,6 @@
         "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 812,
-        "Hospital": "B",
-        "Age": 83,
-        "Sex": "Male",
-        "ROSC": 35,
-        "OHCA": false,
-        "Shockable Rhythm": false,
         "TTM": 33
     },
     {
@@ -1667,16 +2867,6 @@
         "ROSC": 15,
         "OHCA": true,
         "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 756,
-        "Hospital": "E",
-        "Age": 55,
-        "Sex": "Female",
-        "ROSC": 27,
-        "OHCA": true,
-        "Shockable Rhythm": true,
         "TTM": 33
     },
     {
@@ -1777,16 +2967,6 @@
         "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 697,
-        "Hospital": "D",
-        "Age": 84,
-        "Sex": "Male",
-        "ROSC": 30,
-        "OHCA": true,
-        "Shockable Rhythm": false,
         "TTM": 33
     },
     {
@@ -1960,16 +3140,6 @@
         "TTM": 33
     },
     {
-        "Patient": 466,
-        "Hospital": "E",
-        "Age": 71,
-        "Sex": "Female",
-        "ROSC": 10,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 811,
         "Hospital": "A",
         "Age": 64,
@@ -1987,16 +3157,6 @@
         "ROSC": 15,
         "OHCA": false,
         "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 765,
-        "Hospital": "A",
-        "Age": 81,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
         "TTM": 33
     },
     {
@@ -2050,36 +3210,6 @@
         "TTM": 33
     },
     {
-        "Patient": 953,
-        "Hospital": "A",
-        "Age": 74,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 364,
-        "Hospital": "B",
-        "Age": 53,
-        "Sex": "Male",
-        "ROSC": 70,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 335,
-        "Hospital": "A",
-        "Age": 64,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 924,
         "Hospital": "D",
         "Age": 42,
@@ -2120,16 +3250,6 @@
         "TTM": 33
     },
     {
-        "Patient": 357,
-        "Hospital": "A",
-        "Age": 52,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 801,
         "Hospital": "E",
         "Age": 90,
@@ -2160,16 +3280,6 @@
         "TTM": 33
     },
     {
-        "Patient": 984,
-        "Hospital": "A",
-        "Age": 67,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 556,
         "Hospital": "B",
         "Age": 50,
@@ -2178,16 +3288,6 @@
         "OHCA": true,
         "Shockable Rhythm": true,
         "TTM": 33
-    },
-    {
-        "Patient": 734,
-        "Hospital": "B",
-        "Age": 52,
-        "Sex": "Male",
-        "ROSC": 45,
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": "nan"
     },
     {
         "Patient": 976,
@@ -2290,16 +3390,6 @@
         "TTM": "nan"
     },
     {
-        "Patient": 707,
-        "Hospital": "A",
-        "Age": 62,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 981,
         "Hospital": "D",
         "Age": 54,
@@ -2317,26 +3407,6 @@
         "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 708,
-        "Hospital": "B",
-        "Age": 83,
-        "Sex": "Male",
-        "ROSC": 7,
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 699,
-        "Hospital": "B",
-        "Age": 75,
-        "Sex": "Male",
-        "ROSC": 5,
-        "OHCA": true,
-        "Shockable Rhythm": false,
         "TTM": 33
     },
     {
@@ -2470,16 +3540,6 @@
         "TTM": "nan"
     },
     {
-        "Patient": 994,
-        "Hospital": "A",
-        "Age": 78,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 347,
         "Hospital": "D",
         "Age": 51,
@@ -2540,16 +3600,6 @@
         "TTM": 36
     },
     {
-        "Patient": 660,
-        "Hospital": "F",
-        "Age": 60,
-        "Sex": "Male",
-        "ROSC": 21,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": "nan"
-    },
-    {
         "Patient": 717,
         "Hospital": "A",
         "Age": 69,
@@ -2587,16 +3637,6 @@
         "ROSC": 30,
         "OHCA": true,
         "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 560,
-        "Hospital": "A",
-        "Age": 70,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": false,
         "TTM": 33
     },
     {
@@ -2710,16 +3750,6 @@
         "TTM": 36
     },
     {
-        "Patient": 864,
-        "Hospital": "B",
-        "Age": 43,
-        "Sex": "Male",
-        "ROSC": 16,
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 337,
         "Hospital": "A",
         "Age": 67,
@@ -2800,16 +3830,6 @@
         "TTM": 36
     },
     {
-        "Patient": 851,
-        "Hospital": "D",
-        "Age": 76,
-        "Sex": "Female",
-        "ROSC": 27,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 496,
         "Hospital": "D",
         "Age": 82,
@@ -2818,16 +3838,6 @@
         "OHCA": "nan",
         "Shockable Rhythm": false,
         "TTM": "nan"
-    },
-    {
-        "Patient": 915,
-        "Hospital": "A",
-        "Age": 90,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
     },
     {
         "Patient": 410,
@@ -2840,51 +3850,11 @@
         "TTM": "nan"
     },
     {
-        "Patient": 601,
-        "Hospital": "D",
-        "Age": 47,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": "nan",
-        "Shockable Rhythm": true,
-        "TTM": "nan"
-    },
-    {
-        "Patient": 354,
-        "Hospital": "E",
-        "Age": 40,
-        "Sex": "Male",
-        "ROSC": 5,
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 1016,
         "Hospital": "E",
         "Age": 87,
         "Sex": "Male",
         "ROSC": 7,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 626,
-        "Hospital": "E",
-        "Age": 80,
-        "Sex": "Male",
-        "ROSC": 60,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 700,
-        "Hospital": "D",
-        "Age": 75,
-        "Sex": "Male",
-        "ROSC": 30,
         "OHCA": true,
         "Shockable Rhythm": false,
         "TTM": 33
@@ -2940,26 +3910,6 @@
         "TTM": 33
     },
     {
-        "Patient": 861,
-        "Hospital": "B",
-        "Age": 81,
-        "Sex": "Female",
-        "ROSC": 10,
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 883,
-        "Hospital": "A",
-        "Age": 71,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 467,
         "Hospital": "A",
         "Age": 61,
@@ -2967,16 +3917,6 @@
         "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 721,
-        "Hospital": "A",
-        "Age": 66,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
         "TTM": 33
     },
     {
@@ -3006,16 +3946,6 @@
         "Sex": "Female",
         "ROSC": 30,
         "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 445,
-        "Hospital": "E",
-        "Age": 66,
-        "Sex": "Male",
-        "ROSC": 10,
-        "OHCA": "nan",
         "Shockable Rhythm": false,
         "TTM": 33
     },
@@ -3070,16 +4000,6 @@
         "TTM": 36
     },
     {
-        "Patient": 726,
-        "Hospital": "A",
-        "Age": 71,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 666,
         "Hospital": "F",
         "Age": 81,
@@ -3090,32 +4010,12 @@
         "TTM": "nan"
     },
     {
-        "Patient": 964,
-        "Hospital": "E",
-        "Age": 71,
-        "Sex": "Male",
-        "ROSC": 20,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 341,
         "Hospital": "A",
         "Age": 79,
         "Sex": "Male",
         "ROSC": "nan",
         "OHCA": false,
-        "Shockable Rhythm": "nan",
-        "TTM": 36
-    },
-    {
-        "Patient": 613,
-        "Hospital": "A",
-        "Age": 69,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": "nan",
         "Shockable Rhythm": "nan",
         "TTM": 36
     },
@@ -3150,16 +4050,6 @@
         "TTM": 33
     },
     {
-        "Patient": 665,
-        "Hospital": "A",
-        "Age": 44,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 782,
         "Hospital": "A",
         "Age": 67,
@@ -3168,16 +4058,6 @@
         "OHCA": true,
         "Shockable Rhythm": true,
         "TTM": 36
-    },
-    {
-        "Patient": 922,
-        "Hospital": "F",
-        "Age": 83,
-        "Sex": "Male",
-        "ROSC": 30,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": "nan"
     },
     {
         "Patient": 958,
@@ -3220,16 +4100,6 @@
         "TTM": 33
     },
     {
-        "Patient": 718,
-        "Hospital": "B",
-        "Age": 80,
-        "Sex": "Male",
-        "ROSC": 5,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 313,
         "Hospital": "B",
         "Age": 56,
@@ -3248,16 +4118,6 @@
         "OHCA": "nan",
         "Shockable Rhythm": "nan",
         "TTM": 36
-    },
-    {
-        "Patient": 682,
-        "Hospital": "B",
-        "Age": 64,
-        "Sex": "Male",
-        "ROSC": 37,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
     },
     {
         "Patient": 808,
@@ -3280,16 +4140,6 @@
         "TTM": 33
     },
     {
-        "Patient": 767,
-        "Hospital": "B",
-        "Age": 54,
-        "Sex": "Female",
-        "ROSC": 10,
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 663,
         "Hospital": "E",
         "Age": 38,
@@ -3305,26 +4155,6 @@
         "Age": 73,
         "Sex": "Female",
         "ROSC": 30,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 396,
-        "Hospital": "A",
-        "Age": 68,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 344,
-        "Hospital": "A",
-        "Age": 50,
-        "Sex": "Male",
-        "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": false,
         "TTM": 33
@@ -3400,26 +4230,6 @@
         "TTM": 33
     },
     {
-        "Patient": 522,
-        "Hospital": "A",
-        "Age": 68,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 617,
-        "Hospital": "B",
-        "Age": 55,
-        "Sex": "Male",
-        "ROSC": 22,
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 764,
         "Hospital": "D",
         "Age": 44,
@@ -3460,16 +4270,6 @@
         "TTM": 33
     },
     {
-        "Patient": 917,
-        "Hospital": "A",
-        "Age": 75,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 504,
         "Hospital": "A",
         "Age": 61,
@@ -3480,16 +4280,6 @@
         "TTM": 36
     },
     {
-        "Patient": 615,
-        "Hospital": "B",
-        "Age": 70,
-        "Sex": "Male",
-        "ROSC": 10,
-        "OHCA": false,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 925,
         "Hospital": "A",
         "Age": 77,
@@ -3497,16 +4287,6 @@
         "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 443,
-        "Hospital": "D",
-        "Age": 31,
-        "Sex": "Male",
-        "ROSC": 20,
-        "OHCA": true,
-        "Shockable Rhythm": false,
         "TTM": 33
     },
     {
@@ -3526,16 +4306,6 @@
         "Sex": "Female",
         "ROSC": 15,
         "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 328,
-        "Hospital": "B",
-        "Age": 56,
-        "Sex": "Male",
-        "ROSC": 40,
-        "OHCA": false,
         "Shockable Rhythm": true,
         "TTM": 33
     },
@@ -3580,16 +4350,6 @@
         "TTM": 33
     },
     {
-        "Patient": 867,
-        "Hospital": "F",
-        "Age": 52,
-        "Sex": "Male",
-        "ROSC": 4,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": "nan"
-    },
-    {
         "Patient": 421,
         "Hospital": "A",
         "Age": 79,
@@ -3597,16 +4357,6 @@
         "ROSC": "nan",
         "OHCA": false,
         "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 736,
-        "Hospital": "B",
-        "Age": 52,
-        "Sex": "Male",
-        "ROSC": 18,
-        "OHCA": true,
-        "Shockable Rhythm": true,
         "TTM": 33
     },
     {
@@ -3650,16 +4400,6 @@
         "TTM": 33
     },
     {
-        "Patient": 757,
-        "Hospital": "A",
-        "Age": 56,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 720,
         "Hospital": "A",
         "Age": 55,
@@ -3678,16 +4418,6 @@
         "OHCA": true,
         "Shockable Rhythm": true,
         "TTM": 36
-    },
-    {
-        "Patient": 814,
-        "Hospital": "D",
-        "Age": 36,
-        "Sex": "Male",
-        "ROSC": 30,
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
     },
     {
         "Patient": 372,
@@ -3720,16 +4450,6 @@
         "TTM": 33
     },
     {
-        "Patient": 448,
-        "Hospital": "D",
-        "Age": 72,
-        "Sex": "Male",
-        "ROSC": 18,
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 326,
         "Hospital": "A",
         "Age": 46,
@@ -3748,16 +4468,6 @@
         "OHCA": false,
         "Shockable Rhythm": false,
         "TTM": "nan"
-    },
-    {
-        "Patient": 824,
-        "Hospital": "A",
-        "Age": 72,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
     },
     {
         "Patient": 460,
@@ -3796,26 +4506,6 @@
         "Sex": "Female",
         "ROSC": 30,
         "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 532,
-        "Hospital": "A",
-        "Age": 49,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 405,
-        "Hospital": "B",
-        "Age": 26,
-        "Sex": "nan",
-        "ROSC": 2,
-        "OHCA": false,
         "Shockable Rhythm": false,
         "TTM": 33
     },
@@ -4020,42 +4710,12 @@
         "TTM": 33
     },
     {
-        "Patient": 921,
-        "Hospital": "A",
-        "Age": 72,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 892,
-        "Hospital": "A",
-        "Age": 81,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 334,
         "Hospital": "A",
         "Age": 54,
         "Sex": "Male",
         "ROSC": "nan",
         "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 521,
-        "Hospital": "B",
-        "Age": 59,
-        "Sex": "Male",
-        "ROSC": 17,
-        "OHCA": false,
         "Shockable Rhythm": true,
         "TTM": 33
     },
@@ -4170,16 +4830,6 @@
         "TTM": "nan"
     },
     {
-        "Patient": 462,
-        "Hospital": "A",
-        "Age": 76,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 629,
         "Hospital": "B",
         "Age": 66,
@@ -4198,16 +4848,6 @@
         "OHCA": true,
         "Shockable Rhythm": false,
         "TTM": "nan"
-    },
-    {
-        "Patient": 971,
-        "Hospital": "E",
-        "Age": 62,
-        "Sex": "Male",
-        "ROSC": 15,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
     },
     {
         "Patient": 597,
@@ -4250,16 +4890,6 @@
         "TTM": "nan"
     },
     {
-        "Patient": 777,
-        "Hospital": "A",
-        "Age": 43,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 823,
         "Hospital": "A",
         "Age": 71,
@@ -4268,36 +4898,6 @@
         "OHCA": true,
         "Shockable Rhythm": false,
         "TTM": 36
-    },
-    {
-        "Patient": 796,
-        "Hospital": "F",
-        "Age": 46,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": "nan"
-    },
-    {
-        "Patient": 860,
-        "Hospital": "A",
-        "Age": 72,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 415,
-        "Hospital": "A",
-        "Age": 73,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
     },
     {
         "Patient": 862,
@@ -4360,26 +4960,6 @@
         "TTM": 33
     },
     {
-        "Patient": 485,
-        "Hospital": "E",
-        "Age": 55,
-        "Sex": "Male",
-        "ROSC": 10,
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 645,
-        "Hospital": "F",
-        "Age": 36,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": "nan"
-    },
-    {
         "Patient": 440,
         "Hospital": "E",
         "Age": 72,
@@ -4420,30 +5000,10 @@
         "TTM": "nan"
     },
     {
-        "Patient": 968,
-        "Hospital": "A",
-        "Age": 70,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": "nan",
-        "Shockable Rhythm": "nan",
-        "TTM": 36
-    },
-    {
         "Patient": 1001,
         "Hospital": "A",
         "Age": 68,
         "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 644,
-        "Hospital": "A",
-        "Age": 44,
-        "Sex": "Female",
         "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": true,
@@ -4468,16 +5028,6 @@
         "OHCA": true,
         "Shockable Rhythm": true,
         "TTM": 33
-    },
-    {
-        "Patient": 690,
-        "Hospital": "A",
-        "Age": 88,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": "nan",
-        "Shockable Rhythm": true,
-        "TTM": "nan"
     },
     {
         "Patient": 569,
@@ -4507,16 +5057,6 @@
         "ROSC": "nan",
         "OHCA": true,
         "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 797,
-        "Hospital": "A",
-        "Age": 74,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": false,
-        "Shockable Rhythm": false,
         "TTM": 33
     },
     {
@@ -4600,16 +5140,6 @@
         "TTM": 36
     },
     {
-        "Patient": 937,
-        "Hospital": "B",
-        "Age": 70,
-        "Sex": "Male",
-        "ROSC": 4,
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 962,
         "Hospital": "A",
         "Age": 53,
@@ -4650,16 +5180,6 @@
         "TTM": 33
     },
     {
-        "Patient": 973,
-        "Hospital": "F",
-        "Age": 65,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": "nan"
-    },
-    {
         "Patient": 758,
         "Hospital": "D",
         "Age": 66,
@@ -4678,16 +5198,6 @@
         "OHCA": false,
         "Shockable Rhythm": false,
         "TTM": "nan"
-    },
-    {
-        "Patient": 574,
-        "Hospital": "A",
-        "Age": 74,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
     },
     {
         "Patient": 407,
@@ -4710,16 +5220,6 @@
         "TTM": 33
     },
     {
-        "Patient": 792,
-        "Hospital": "D",
-        "Age": 65,
-        "Sex": "Male",
-        "ROSC": 95,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 360,
         "Hospital": "B",
         "Age": 69,
@@ -4727,16 +5227,6 @@
         "ROSC": 25,
         "OHCA": false,
         "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 935,
-        "Hospital": "D",
-        "Age": 36,
-        "Sex": "Male",
-        "ROSC": 4,
-        "OHCA": true,
-        "Shockable Rhythm": true,
         "TTM": 33
     },
     {
@@ -4920,16 +5410,6 @@
         "TTM": 33
     },
     {
-        "Patient": 1006,
-        "Hospital": "A",
-        "Age": 76,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 340,
         "Hospital": "E",
         "Age": 66,
@@ -4945,16 +5425,6 @@
         "Age": 59,
         "Sex": "Female",
         "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 514,
-        "Hospital": "D",
-        "Age": 47,
-        "Sex": "Male",
-        "ROSC": 50,
         "OHCA": true,
         "Shockable Rhythm": true,
         "TTM": 33
@@ -5100,16 +5570,6 @@
         "TTM": 33
     },
     {
-        "Patient": 356,
-        "Hospital": "A",
-        "Age": 82,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 858,
         "Hospital": "B",
         "Age": 19,
@@ -5120,26 +5580,6 @@
         "TTM": 33
     },
     {
-        "Patient": 582,
-        "Hospital": "A",
-        "Age": 73,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 678,
-        "Hospital": "F",
-        "Age": 74,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": "nan"
-    },
-    {
         "Patient": 475,
         "Hospital": "A",
         "Age": 66,
@@ -5148,16 +5588,6 @@
         "OHCA": "nan",
         "Shockable Rhythm": "nan",
         "TTM": 36
-    },
-    {
-        "Patient": 771,
-        "Hospital": "B",
-        "Age": 84,
-        "Sex": "Male",
-        "ROSC": 33,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
     },
     {
         "Patient": 745,
@@ -5330,46 +5760,6 @@
         "TTM": 33
     },
     {
-        "Patient": 788,
-        "Hospital": "D",
-        "Age": 67,
-        "Sex": "nan",
-        "ROSC": "nan",
-        "OHCA": "nan",
-        "Shockable Rhythm": false,
-        "TTM": "nan"
-    },
-    {
-        "Patient": 486,
-        "Hospital": "A",
-        "Age": 48,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 549,
-        "Hospital": "A",
-        "Age": 48,
-        "Sex": "Female",
-        "ROSC": "nan",
-        "OHCA": "nan",
-        "Shockable Rhythm": "nan",
-        "TTM": 36
-    },
-    {
-        "Patient": 350,
-        "Hospital": "B",
-        "Age": 56,
-        "Sex": "Male",
-        "ROSC": 7,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 564,
         "Hospital": "A",
         "Age": 64,
@@ -5400,16 +5790,6 @@
         "TTM": 33
     },
     {
-        "Patient": 332,
-        "Hospital": "D",
-        "Age": 68,
-        "Sex": "Female",
-        "ROSC": 60,
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 436,
         "Hospital": "B",
         "Age": 38,
@@ -5430,16 +5810,6 @@
         "TTM": 33
     },
     {
-        "Patient": 932,
-        "Hospital": "A",
-        "Age": 64,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 807,
         "Hospital": "E",
         "Age": 45,
@@ -5448,16 +5818,6 @@
         "OHCA": true,
         "Shockable Rhythm": false,
         "TTM": "nan"
-    },
-    {
-        "Patient": 605,
-        "Hospital": "A",
-        "Age": 57,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
     },
     {
         "Patient": 769,
@@ -5510,16 +5870,6 @@
         "TTM": 33
     },
     {
-        "Patient": 950,
-        "Hospital": "B",
-        "Age": 30,
-        "Sex": "Male",
-        "ROSC": 10,
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
         "Patient": 502,
         "Hospital": "A",
         "Age": 43,
@@ -5560,16 +5910,6 @@
         "TTM": 33
     },
     {
-        "Patient": 390,
-        "Hospital": "A",
-        "Age": 56,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 472,
         "Hospital": "F",
         "Age": 36,
@@ -5578,16 +5918,6 @@
         "OHCA": true,
         "Shockable Rhythm": false,
         "TTM": "nan"
-    },
-    {
-        "Patient": 359,
-        "Hospital": "A",
-        "Age": 80,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": "nan",
-        "TTM": 33
     },
     {
         "Patient": 991,
@@ -5630,26 +5960,6 @@
         "TTM": "nan"
     },
     {
-        "Patient": 999,
-        "Hospital": "B",
-        "Age": 46,
-        "Sex": "Male",
-        "ROSC": 10,
-        "OHCA": false,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 920,
-        "Hospital": "A",
-        "Age": 58,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
         "Patient": 746,
         "Hospital": "D",
         "Age": 61,
@@ -5675,16 +5985,6 @@
         "Age": 57,
         "Sex": "Female",
         "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": 33
-    },
-    {
-        "Patient": 727,
-        "Hospital": "D",
-        "Age": 44,
-        "Sex": "Female",
-        "ROSC": 24,
         "OHCA": true,
         "Shockable Rhythm": true,
         "TTM": 33
@@ -5760,36 +6060,6 @@
         "TTM": "nan"
     },
     {
-        "Patient": 375,
-        "Hospital": "E",
-        "Age": 54,
-        "Sex": "Male",
-        "ROSC": 17,
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 686,
-        "Hospital": "A",
-        "Age": 51,
-        "Sex": "Male",
-        "ROSC": "nan",
-        "OHCA": true,
-        "Shockable Rhythm": false,
-        "TTM": 33
-    },
-    {
-        "Patient": 952,
-        "Hospital": "F",
-        "Age": 69,
-        "Sex": "Male",
-        "ROSC": 25,
-        "OHCA": true,
-        "Shockable Rhythm": true,
-        "TTM": "nan"
-    },
-    {
         "Patient": 889,
         "Hospital": "D",
         "Age": 47,
@@ -5798,8 +6068,5 @@
         "OHCA": true,
         "Shockable Rhythm": false,
         "TTM": 33
-    },
-    {
-        "{\"index_map\"": "[{\"patient_id\": \"0753\", \"record\": \"0753_028_035_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_034_041_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_011_018_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_026_033_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_009_016_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_002_009_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_006_013_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_017_024_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_030_037_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_007_014_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_039_046_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_005_012_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_024_031_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_012_019_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_018_025_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_023_030_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_041_048_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_047_054_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_019_026_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_050_057_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_046_053_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_045_052_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_037_044_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_036_043_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_029_036_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_033_040_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_035_042_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_040_047_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_044_051_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_004_011_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_032_039_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_048_055_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_008_015_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_021_028_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_049_056_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_010_017_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_025_032_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_003_010_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_001_008_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_038_045_EEG\", \"num_windows\": 18000, \"outcome\": 0, \"cpc\": 1}, {\"patient_id\": \"0753\", \"record\": \"0753_013_020_EEG\", \"num_windows\": 18000, \"outco"
     }
 ]

@@ -2,7 +2,7 @@ import os
 import json
 
 # Root folder containing your dataset
-data_dir = "D:/data"  # Change this to your actual path
+data_dir = "/media/brainwave/2Tb HDD/physionet.org/files/i-care/2.1/training"  # Change this to your actual path
 
 # Fields to exclude
 exclude_fields = {'Outcome', 'CPC'}

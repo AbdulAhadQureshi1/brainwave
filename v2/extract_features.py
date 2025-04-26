@@ -8,9 +8,9 @@ import concurrent.futures
 from antropy import petrosian_fd, perm_entropy
 
 # Paths
-METADATA_PATH = "new-metadata.json"
-DATA_DIR = "dataset/dataset"
-OUTPUT_JSON = "lol-metadata.json"
+METADATA_PATH = "dataset.json"
+DATA_DIR = "preprocessed_data"
+OUTPUT_JSON = "eeg_features_data.json"
 
 def fast_extract_features(eeg_windows):
     """Feature extraction with real PFD and PE"""

@@ -8,65 +8,41 @@ import concurrent.futures
 from antropy import petrosian_fd, perm_entropy
 
 # Paths
-METADATA_PATH = "dataset.json"
-DATA_DIR = "preprocessed_data"
-OUTPUT_JSON = "eeg_feature_dataset.json"
-
-# def fast_extract_features(eeg_windows):
-#     """Fast feature extraction without slow Welch, PFD, PE"""
-#     means = np.mean(eeg_windows, axis=1)
-#     stds = np.std(eeg_windows, axis=1)
-#     vars_ = np.var(eeg_windows, axis=1)
-#     rms = np.sqrt(np.mean(eeg_windows ** 2, axis=1))
-#     kurt = kurtosis(eeg_windows, axis=1)
-#     power = np.mean(eeg_windows ** 2, axis=1)
-#     psd_approx = vars_  # Approximate PSD by variance
-
-#     feature_list = []
-#     for i in range(eeg_windows.shape[0]):
-#         feature_list.append({
-#             "mean": float(means[i]),
-#             "std": float(stds[i]),
-#             "var": float(vars_[i]),
-#             "rms": float(rms[i]),
-#             "kurtosis": float(kurt[i]),
-#             "power": float(power[i]),
-#             "psd": float(psd_approx[i]),
-#             # You can remove pfd and pe here to speed up more
-#             "pfd": 0.0,
-#             "pe": 0.0
-#         })
-
-#     return feature_list
+METADATA_PATH = "new-metadata.json"
+DATA_DIR = "dataset/dataset"
+OUTPUT_JSON = "lol-metadata.json"
 
 def fast_extract_features(eeg_windows):
     """Feature extraction with real PFD and PE"""
-    means = np.mean(eeg_windows, axis=1)
-    stds = np.std(eeg_windows, axis=1)
-    vars_ = np.var(eeg_windows, axis=1)
-    rms = np.sqrt(np.mean(eeg_windows ** 2, axis=1))
-    kurt = kurtosis(eeg_windows, axis=1)
-    power = np.mean(eeg_windows ** 2, axis=1)
+
+    # Ensure batch dimension
+    if len(eeg_windows.shape) == 2:
+        eeg_windows = eeg_windows[np.newaxis, ...]
+    
+    means = np.mean(eeg_windows, axis=(1, 2))
+    stds = np.std(eeg_windows, axis=(1, 2))
+    vars_ = np.var(eeg_windows, axis=(1, 2))
+    rms = np.sqrt(np.mean(eeg_windows ** 2, axis=(1, 2)))
+    kurt = kurtosis(eeg_windows.reshape(eeg_windows.shape[0], -1), axis=1)
+    power = np.mean(eeg_windows ** 2, axis=(1, 2))
     psd_approx = vars_
 
-    # Real PFD and PE
-    pfd_vals = np.array([petrosian_fd(window) for window in eeg_windows])
-    pe_vals = np.array([perm_entropy(window, normalize=True) for window in eeg_windows])
+    pfd_vals = np.array([petrosian_fd(window.reshape(-1)) for window in eeg_windows])
+    pe_vals = np.array([perm_entropy(window.reshape(-1), normalize=True) for window in eeg_windows])
 
-    feature_list = []
-    for i in range(eeg_windows.shape[0]):
-        feature_list.append({
-            "mean": float(means[i]),
-            "std": float(stds[i]),
-            "var": float(vars_[i]),
-            "rms": float(rms[i]),
-            "kurtosis": float(kurt[i]),
-            "power": float(power[i]),
-            "psd": float(psd_approx[i]),
-            "pfd": float(pfd_vals[i]),
-            "pe": float(pe_vals[i])
-        })
-
+    # No need for a loop if just 1 window
+    feature_list = [{
+        "mean": float(means[0]),
+        "std": float(stds[0]),
+        "var": float(vars_[0]),
+        "rms": float(rms[0]),
+        "kurtosis": float(kurt[0]),
+        "power": float(power[0]),
+        "psd": float(psd_approx[0]),
+        "pfd": float(pfd_vals[0]),
+        "pe": float(pe_vals[0])
+    }]
+    
     return feature_list
 
 def process_record(record_info):
